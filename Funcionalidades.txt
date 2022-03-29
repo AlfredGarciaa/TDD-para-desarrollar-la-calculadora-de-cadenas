@@ -16,5 +16,5 @@ TDD
 - (11ª TDD) Calcular suma de una cadena con varios delimitadores de * de cualquier longitud ok.!!!
 
 FUNCIONALIDADES
-- Poner la funcion sumar_cadena en otra carpeta, verificando que tickee correctamente los anteriores testers
-- 
+- Poner la funcion sumar_cadena en otra carpeta, verificando que tickee correctamente los anteriores testers        LISTO!!!
+- Refactorizacion con JS v6 para mejor sintaxis, se crea en una clase toda la funcion sumar_cadena (añadiendo arrange y Assert-Verificacion, con su resultado)
