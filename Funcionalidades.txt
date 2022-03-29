@@ -3,4 +3,5 @@ Necesitamos pensar en el caso de prueba más simple y continuar a partir del mis
 Por ejemplo, los siguientes casos de prueba:
 - (1ª TDD) Toma en cuenta la cadena vacía: Para una cadena “” -> 0
 - (2ª TDD) Deberia tomar en cuenta cadena con 1 solo numero
-- (3ª TDD) Toma en cuenta cadena un solo número: Para una cadena “10” -> 10
+- (3ª TDD) Toma en cuenta cadena un solo número: Para una cadena “2” -> 2
+- (4ª TDD) Deberia tomar en cuenta cadena con 2 numeros
