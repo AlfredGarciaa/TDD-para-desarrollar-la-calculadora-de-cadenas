@@ -18,3 +18,4 @@ TDD
 FUNCIONALIDADES
 - Poner la funcion sumar_cadena en otra carpeta, verificando que tickee correctamente los anteriores testers        LISTO!!!
 - Refactorizacion con JS v6 para mejor sintaxis, se crea en una clase toda la funcion sumar_cadena (añadiendo arrange y Assert-Verificacion, con su resultado)
+- Mejoramos la refactorizacion anterior (tanto codigo de produccion como pruebas mejoramos) y usando una caracteristica de JEST (before each)
