@@ -16,7 +16,8 @@ TDD
 - (11ª TDD) Calcular suma de una cadena con varios delimitadores de * de cualquier longitud ok.!!!
 
 FUNCIONALIDADES
-- Poner la funcion sumar_cadena en otra carpeta, verificando que tickee correctamente los anteriores testers        LISTO!!!
-- Refactorizacion con JS v6 para mejor sintaxis, se crea en una clase toda la funcion sumar_cadena (añadiendo arrange y Assert-Verificacion, con su resultado)
-- Mejoramos la refactorizacion anterior (tanto codigo de produccion como pruebas mejoramos) y usando una caracteristica de JEST (before each)
-- Se termino logica de negocio, añadimos interfaz de usuario basica.
+- Funcion sumar_cadena en otra carpeta, verificando que tickee correctamente anteriores testers        LISTO!!!
+- Refactorizacion con JS v6 para mejor sintaxis, se crea una clase para la funcion sumar_cadena (añadiendo arrange y Assert-Verificacion, con su resultado)      LISTO!!!
+- Mejoramos la refactorizacion anterior (tanto codigo de produccion como pruebas mejoramos) y usando una caracteristica de JEST (before each)       LISTO!!!
+- Se termino logica de negocio, añadimos interfaz de usuario basica.        LISTO!!!
+- Refactorizar final a la vista de la APP (logotipo, resaltado, imagen, negrilla)       LISTO!!!
