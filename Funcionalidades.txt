@@ -8,4 +8,5 @@ Por ejemplo, los siguientes casos de prueba:
 - (5ª TDD) Toma en cuenta cadena con varios números: Para una cadena “1,3,6,18” -> 28       OK.!!!
 - (6ª TDD) Calcular suma de una cadena con un delimitador por defecto OSEA calcular suma para cualquier cadena      OK.!!!
 - (7ª TDD) Calcular suma de una cadena con un delimitador por defecto       OK.!!!
-- (8ª TDD) Calcular suma de una cadena ignorando numeros que sean mayores a 1000
+- (8ª TDD) Calcular suma de una cadena ignorando numeros que sean mayores a 1000        OK.!!!
+- (9ª TDD) Calcular suma de una cadena con un delimitador de cualquier longitud ok.!!!
