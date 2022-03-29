@@ -1,8 +1,9 @@
 Cuales serían nuestros primeros casos de prueba:
 Necesitamos pensar en el caso de prueba más simple y continuar a partir del mismo  a pasos muy pequeños.
 Por ejemplo, los siguientes casos de prueba:
-- (1ª TDD) Toma en cuenta la cadena vacía: Para una cadena “” -> 0
-- (2ª TDD) Deberia tomar en cuenta cadena con 1 solo numero
-- (3ª TDD) Toma en cuenta cadena un solo número: Para una cadena “9” -> 9
-- (4ª TDD) Deberia tomar en cuenta cadena por defecto con 2 numeros
-- (5ª TDD) Toma en cuenta cadena con varios números: Para una cadena “1,3,6,18” -> 28
+- (1ª TDD) Toma en cuenta la cadena vacía: Para una cadena “” -> 0      OK.!!!
+- (2ª TDD) Deberia tomar en cuenta cadena con 1 solo numero         OK.!!!
+- (3ª TDD) Toma en cuenta cadena un solo número: Para una cadena “9” -> 9       OK.!!!
+- (4ª TDD) Deberia tomar en cuenta cadena por defecto con 2 numeros     OK.!!!
+- (5ª TDD) Toma en cuenta cadena con varios números: Para una cadena “1,3,6,18” -> 28       OK.!!!
+- (6ª TDD) Calcular suma de una cadena con un delimitador por defecto OSEA calcular suma para cualquier cadena

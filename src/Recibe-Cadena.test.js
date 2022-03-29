@@ -18,25 +18,34 @@ describe("Calculadora de Cadenas", () => {
   it("Toma en cuenta cadena con varios números: Para una cadena “1,3,6,18” -> 28", () => {
     expect(sumar_cadena("1,3,6,18", "")).toEqual(28);
   });
+
+  it("calcular suma para cualquier cadena", () => {
+    expect(calcularCadena("1-2,3", "")).toEqual(6);
+  });
+
+  it("calcular suma de una cadena con un delimitador por defecto", () => {
+    expect(calcularCadena("6;7;4", ";")).toEqual(17);
+  });
 });
 
 
 function sumar_cadena(cadena, delimitador){
   let subCadena = "", suma = 0, baseNumerico = 10;
-  if(cadena != ""){
+  let entero;
+  if(cadena == ""){
+    return 0;
+  }
+  else{
     for(var i = 0; i <= cadena.length; i++){
       if(parseInt(cadena[i], baseNumerico)){
         subCadena = subCadena + cadena[i];
       }else{
-        suma = suma + parseInt(subCadena, baseNumerico);
+        entero = parseInt(subCadena, baseNumerico)
+        if(!delimitador || ((cadena[i] == delimitador || !cadena[i]) && entero)){
+          suma = suma + entero;
+        }
         subCadena = "";
       }
     }
-    return suma;
-  }
-  else{
-    if(cadena == ""){
-      return 0;
-    }
-  }
+  } 
 }
