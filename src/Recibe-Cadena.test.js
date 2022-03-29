@@ -6,6 +6,11 @@ describe("Calculadora de Cadenas", () => {
   it("Deberia tomar en cuenta cadena con 1 solo numero", () => {
     expect(sumar_cadena("1")).toEqual(1);
   });
+
+  it("Toma en cuenta cadena un solo número: Para una cadena “10” -> 10", () => {
+    expect(sumar_cadena("10")).toEqual(10);
+  });
+  
 });
 
 
