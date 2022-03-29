@@ -4,8 +4,8 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "parcel Calculadora-Cadenas.html",
+    "build": "parcel build Calculadora-Cadenas.html",
     "test": "jest --watch",
     "test-once": "jest"
   },

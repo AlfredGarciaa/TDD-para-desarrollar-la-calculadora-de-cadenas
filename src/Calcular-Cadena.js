@@ -1,4 +1,7 @@
 class Calculador{
+    constructor(){
+        //No se necesitó pero sirve de referencia.
+    }
     sumar_cadena(cadena, delimitador){
         if(cadena == ""){
         return 0;
