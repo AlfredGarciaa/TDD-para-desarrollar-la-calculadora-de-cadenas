@@ -7,7 +7,7 @@
     "start": "parcel Calculadora-Cadenas.html",
     "build": "parcel build Calculadora-Cadenas.html",
     "test": "jest --watch",
-    "test-once": "jest"
+    "test-once": "jest --coverage --verbose "
   },
   "author": "Israel Antezana R.",
   "license": "ISC",
