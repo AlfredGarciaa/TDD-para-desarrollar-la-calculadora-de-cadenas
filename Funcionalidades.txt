@@ -21,3 +21,11 @@ FUNCIONALIDADES
 - Mejoramos la refactorizacion anterior (tanto codigo de produccion como pruebas mejoramos) y usando una caracteristica de JEST (before each)       LISTO!!!
 - Se termino logica de negocio, añadimos interfaz de usuario basica.        LISTO!!!
 - Refactorizar final a la vista de la APP (logotipo, resaltado, imagen, negrilla)       LISTO!!!
+
+
+
+
+
+
+
+TODO TERMINADO :) y probando los git - actions
